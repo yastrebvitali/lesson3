@@ -1,0 +1,30 @@
+.border {
+    border: 1px solid black;
+}
+
+.header{
+    min-height: 200px;
+    position: static;
+}
+
+.left-sidebar{
+    min-width: 400px;
+    position: relative;
+    height: 800px;
+    float: left;
+}
+.content{
+    position: relative;
+    background-color: black;
+    /*min-width: 400px;*/
+    height: 800px;
+    /*z-index: 1;*/
+}
+.right-sidebar{
+    min-width: 400px;
+    float: right;
+}
+.footer{
+    min-height: 200px;
+    float: bottom;
+}
